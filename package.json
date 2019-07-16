@@ -1,0 +1,36 @@
+{
+    "name": "react-conditional-manager",
+    "version": "0.0.1",
+    "description": "",
+    "main": "./dist/index.js",
+    "scripts": {
+        "build": "webpack --config webpack.config.js"
+    },
+    "author": "Scotty Rogers",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "scottyrogers10/react-conditional-manager"
+    },
+    "dependencies": {
+        "@babel/polyfill": "^7.4.4",
+        "@babel/runtime": "^7.5.4",
+        "prop-types": "^15.7.2",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.5.0",
+        "@babel/core": "^7.5.4",
+        "@babel/plugin-proposal-class-properties": "^7.5.0",
+        "@babel/plugin-transform-runtime": "^7.5.0",
+        "@babel/preset-env": "^7.5.4",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.6",
+        "css-loader": "^3.0.0",
+        "style-loader": "^0.23.1",
+        "webpack": "^4.35.3",
+        "webpack-cli": "^3.3.5",
+        "webpack-visualizer-plugin": "^0.1.11"
+    }
+}
