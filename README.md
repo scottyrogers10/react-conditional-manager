@@ -27,7 +27,7 @@ const Example = props => {
     ];
 
     return (
-        <ConditionalManager observables={conditions}>
+        <ConditionalManager conditions={conditions}>
             {() => ({
                 loading: <Loading />,
                 error: <Error />,
