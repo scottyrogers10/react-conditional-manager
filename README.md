@@ -10,7 +10,7 @@ A react component that handles conditional logic in a more elegant manner.
 ## Install
 
 ```bash
-npm install react-conditional-manager
+npm install --save react-conditional-manager
 ```
 
 ## Minimal Example

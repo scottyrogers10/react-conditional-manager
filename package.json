@@ -8,6 +8,25 @@
     },
     "author": "Scotty Rogers",
     "license": "ISC",
+    "keywords": [
+        "react",
+        "reactjs",
+        "react-component",
+        "conditional",
+        "render",
+        "render-component",
+        "render-props",
+        "condition",
+        "if-else",
+        "truthy",
+        "falsy",
+        "react-conditional",
+        "react-conditional-rendering",
+        "control-flow",
+        "conditional-rendering",
+        "pattern",
+        "matching"
+    ],
     "repository": {
         "type": "git",
         "url": "scottyrogers10/react-conditional-manager"
