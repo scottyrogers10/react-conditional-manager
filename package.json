@@ -1,7 +1,7 @@
 {
     "name": "react-conditional-manager",
     "version": "0.0.1",
-    "description": "",
+    "description": "A react component that handles conditional logic in a more elegant manner.",
     "main": "./dist/index.js",
     "scripts": {
         "build": "webpack --config webpack.config.js"
