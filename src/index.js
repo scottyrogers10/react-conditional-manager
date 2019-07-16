@@ -25,14 +25,12 @@ const ConditionalManager = props => {
 ConditionalManager.propTypes = {
     children: PropTypes.func.isRequired,
     conditions: PropTypes.array,
-    renderedProps: PropTypes.object,
-    type: PropTypes.string
+    renderedProps: PropTypes.object
 };
 
 ConditionalManager.defaultProps = {
     conditions: [],
-    renderedProps: {},
-    type: "FIRST_TRUE"
+    renderedProps: {}
 };
 
 export default ConditionalManager;
