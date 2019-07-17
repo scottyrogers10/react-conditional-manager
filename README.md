@@ -28,12 +28,12 @@ const Example = props => {
 
     return (
         <ConditionalManager conditions={conditions}>
-            {() => ({
+            {{
                 loading: <Loading />,
                 error: <Error />,
                 empty: <EmptyMessage message={"No conversations"} />,
                 default: <InfiniteScroll renderRow={renderRow} />
-            })}
+            }}
         </ConditionalManager>
     );
 };
@@ -43,9 +43,9 @@ export default Example;
 
 ## Props
 
-#### `children`: function() => ({})
+#### `children`: {}
 
--   The children prop needs to return an object literal with the different renderable states.
+-   The children prop is an object literal with the different renderable states.
 -   isRequired
 
 #### `conditions`: [{state: conditional}]

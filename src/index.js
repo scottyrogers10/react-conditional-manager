@@ -10,7 +10,7 @@ const getCurrentKey = conditions => {
 };
 
 const ConditionalManager = props => {
-    const componentMap = props.children();
+    const componentMap = props.children;
     const conditionKeys = props.conditions.map(condition => Object.keys(condition)[0]);
     const defaultKey = getDefaultKey(componentMap, conditionKeys);
     const currentKey = getCurrentKey(props.conditions);
@@ -23,7 +23,7 @@ const ConditionalManager = props => {
 };
 
 ConditionalManager.propTypes = {
-    children: PropTypes.func.isRequired,
+    children: PropTypes.object.isRequired,
     conditions: PropTypes.array,
     renderedProps: PropTypes.object
 };
